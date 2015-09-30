@@ -1,8 +1,8 @@
-# Getting Started With Node.js, Express, MongoDB Tutorial
+# tutorial-node-express-mongo
 
-[Read the tutorial](http://cwbuecheler.com/web/tutorials/2013/node-express-mongo/)
+[Getting Started With Node.js, Express, MongoDB Tutorial](http://cwbuecheler.com/web/tutorials/2013/node-express-mongo/)
 
-# Details
+## details
 
 * clone repository
 * run *npm install* to install dependencies
@@ -11,9 +11,9 @@
 * [user list page](http://localhost:3000/userlist)
 * [new user page](http://localhost:3000/newuser)
 
-# database setup
+## database setup
 
 * install mongodb
 * mkdir tutorial-node-express-mongo/data
 * start mongodb: *mongod --dbpath tutorial-node-express-mongo/data*
-* run *mongo tutorial-node-express-mongo mongodb_setup.js
+* run *mongo tutorial-node-express-mongo mongodb_setup.js* to seed database
